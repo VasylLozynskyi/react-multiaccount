@@ -1,0 +1,115 @@
+.mobileproxy{
+    box-sizing: border-box;
+    max-width: 1248px;
+    background-image: url("../../../assets/images/background_proxyblock.png");
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    margin: 60px auto;
+    padding: 24px 60px 0 60px;
+}
+.mobileproxy h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.mobileproxy p{
+    max-width: 530px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.titleflexproxy{
+    display: flex;
+    max-width: 1248px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 69px;
+    margin-bottom: 20px;
+}
+.titleflexproxy > div{
+    width: 50%;
+    text-align: center;
+}
+.infoflexproxy{
+    max-width: 1248px;
+    display: flex;
+    margin: 0 auto;
+    padding: 50px 0;
+    background: #FFFFFF;
+    border: 1px solid #DADFF2;
+    border-radius: 35px;
+    
+}
+.infoflexproxy h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+}
+.infoflexproxy p{
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 27px;
+
+}
+.leftinfoblock{
+    width: 50%;
+    border-right: 2px solid gray;
+    padding: 10px;
+}
+.rightinfoblock{
+    width: 50%;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+    padding-left: 10px;
+}
+ul > li{
+    padding-left: 20px;
+    position: relative;    
+}
+ul > li:before{
+    content: url(../../../assets/images/ul_point.png);
+    /* transform: scale(.02); */
+    position: absolute; 
+    top: 10px; 
+    left: 0;
+}
+li span{
+    color: #FF8A00;
+}
+@media (max-width: 768px) {
+    .mobileproxy{
+        max-width: 564px;
+    }
+    .titleflexproxy{
+        max-width: 564px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .infoflexproxy{
+        padding: 20px;
+    }
+    .infoflexproxy p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .infoflexproxy h3{
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+@media (max-width: 530px){
+    .mobileproxy h2{
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .mobileproxy p{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

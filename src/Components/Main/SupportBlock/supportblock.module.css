@@ -1,0 +1,71 @@
+.container{
+    text-align: center;
+    margin: 60px 10px;
+
+}
+.frameArrow{
+    height: 90px;
+    background-image: url("../../../assets/images/Vector\ 28.png"),
+    url("../../../assets/images/Polygon\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center 55px , center 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #556EE6;
+    opacity: 0.7;
+}
+.infosupport{
+    max-width: 1248px;
+    height: 950px;
+    background-image: url("../../../assets/images/image-infosupport.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 0 auto;
+}
+/* .infosupport p{
+    text-align: start;
+    width: 345px;
+    font-size: 26px;
+    line-height: 33px;
+}
+.infosupport p:first-child{
+    margin: 80px 0 130px 0;
+}
+.infosupport p:last-child{
+    margin: 155px 0 0 0;
+} */
+@media (max-width: 1280px){
+    .infosupport{
+        height: 700px;
+    }
+}
+@media (max-width: 1024px){
+    .infosupport{
+        height: 550px;
+    }
+}
+@media (max-width: 768px){
+    .infosupport{
+        height: 430px;
+    }
+}
+@media (max-width: 530px){
+    .container{
+        margin: 30px 0;
+    
+    }
+    .infosupport{
+        background-image: url("../../../assets/images/image-infosupport-mobile.png");
+        height: 689px;
+    }
+    .frameArrow{
+        height: 30px;
+        font-size: 14px;
+        line-height: 21px;
+        background-image: url("../../../assets/images/Frame_mobile_arrow.png");
+        background-repeat: no-repeat;
+        background-position: center 20px;
+    }
+}

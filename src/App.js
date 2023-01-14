@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './Components/Footer/Footer';
+import Header from "./Components/Header/Header"
+import FAQBlock from './Components/Main/FAQBlock/FAQBlock';
+import InfoBlock from './Components/Main/InfoBlock/InfoBlock';
+import ProxyBlock from './Components/Main/ProxyBlock/ProxyBlock';
+import SupprotBlock from './Components/Main/SupportBlock/SupportBlock';
+import TariffsBlock from './Components/Main/TariffsBlock/TariffsBlock';
+import VideoBlock from './Components/Main/VideoBlock/VideoBlock';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='wrapper'>
+      <Header/>
+      <SupprotBlock/>
+      <VideoBlock/>
+      <InfoBlock/>
+      <ProxyBlock/>
+      <TariffsBlock/>
+      <FAQBlock/>
+      <Footer/>
     </div>
   );
 }

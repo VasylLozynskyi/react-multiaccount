@@ -1,0 +1,157 @@
+.faqmultiaccount{
+    margin: 60px auto;
+    max-width: 1248px;
+    min-height: 781px;
+
+}
+.faqmultiaccount h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    margin-bottom: 40px;
+}
+.cardmult{
+    box-sizing: border-box;
+    width: 600px;
+    background: #FFFFFF;
+    border: 1px solid #DADFF2;
+    border-radius: 35px;
+    position: relative;
+    padding: 30px 25px 50px 130px;
+}
+.cardmult .imgblock{
+    background: #556EE6;
+    border-radius: 35px;
+    width: 110px;
+    height: 111px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+.cardmult .titlecardmult{
+    margin-bottom: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+.cardmult  p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.faqmultiaccountflexcard{
+    display: flex;
+    max-width: 1248px;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.fingerprint{
+    margin: 60px auto;
+    max-width: 1248px;
+}
+.fingerprint h2{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 69px;
+    padding: 0 10px;
+}
+.flexfingerprint{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10px 0 10px; 
+}
+.leftfingblock{
+    margin-right: 10px;
+}
+.leftfingblock > div{
+ margin-bottom: 10px;   
+}
+.leftfingblock > div:last-child{
+    margin-bottom: 0;   
+}
+.leftfingblock > div button{
+    border: none;
+}
+@media (max-width: 1024px) {
+    .leftfingblock > div button{
+       max-width: 130px;
+    } 
+    .fingerprint h2,
+    .faqmultiaccount h2{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 27px;
+    }
+}
+.rigthfingblock{
+    background: #556EE6;
+    border-radius: 25px;
+    padding: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.fingcontacts{
+    margin: 60px auto;
+    max-width: 1248px;
+}
+.flexfingcontacts{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.telegramcard,
+.youtubecard{
+    background: #FFFFFF;
+    border: 1px solid #DADFF2;
+    border-radius: 35px;
+    padding: 40px;
+    position: relative;
+    width: 510px;
+    margin-bottom: 10px;
+}
+.telegramcard h2,
+.youtubecard h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    margin-bottom: 15px;
+}
+.telegramcard p,
+.youtubecard p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 280px;
+    margin-bottom: 100px;
+}
+.telegramcard > img,
+.youtubecard > img{
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.telegramcard a,
+.youtubecard a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #556EE6;
+    position: absolute;
+    bottom: 40px;
+}

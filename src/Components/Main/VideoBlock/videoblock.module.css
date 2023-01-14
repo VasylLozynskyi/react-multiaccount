@@ -1,0 +1,94 @@
+.videosection{
+    box-sizing: border-box;
+    max-height: 560px;
+    background-image: url("../../../assets/images/video_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 10px;
+}
+.infovideo{
+    max-width: 1248px;
+    max-height: 471px;
+    margin: 0 auto;
+    background: linear-gradient(150.31deg, rgba(255, 255, 255, 0.1848) 18.17%, rgba(255, 255, 255, 0.1232) 81.84%);
+    backdrop-filter: blur(6.5px);
+    border-radius: 35px;
+    display: flex;
+}
+.infovideo iframe{
+    margin: 30px;
+}
+.infovideo div{
+    margin: 130px 20px 0 40px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    max-width: 450px;
+}
+.infovideo div h2{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 82px;
+    color: #FFFFFF;
+}
+@media (max-width: 1024px){
+    .infovideo div{
+        margin-top: 90px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .infovideo div h2{
+        font-size: 36px;
+        line-height: 60px;
+    }
+    iframe{
+        height: 260px;
+    }
+}
+@media (max-width: 768px){
+    .infovideo{
+        max-width: 564px;
+    }
+    .infovideo div{
+        margin-left: 0px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .infovideo div h2{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    iframe{
+        max-width: 273px;
+        max-height: 185px;
+    }
+}
+@media (max-width: 630px){
+    .videosection{
+        padding-top: 90px;
+    }
+    .infovideo{
+        display: block;
+        text-align: center;
+        max-width: 350px;
+    }
+    .infovideo iframe{
+        margin: 10px;
+        width: 240px;
+        height: 162px;
+    }
+    .infovideo div{
+        width: 180px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: -80px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}

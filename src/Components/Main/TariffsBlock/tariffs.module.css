@@ -1,0 +1,105 @@
+.container{
+    width: 100%;
+    min-height: 800px;
+    background-image: url("../../../assets/images/background_tariffs.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.tariffscontainer h2{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 15px;
+}
+.tariffscontainer > p{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    text-align: center;
+}
+.cardtariff{
+    box-sizing: border-box;
+    width: 355px;
+    height: 592px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    padding: 35px 20px 55px 20px;
+    margin: 5px;
+}
+.titletariffblock{
+   margin: 0 0 55px 50px;
+}
+.titletariffblock h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+.titletariffblock p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color:black;
+}
+.pricecardtariff{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.flexbuttoncard{
+    text-align: center;
+    margin-bottom: 55px;
+}
+.buttoncardtariff{
+    width: 200px;
+    height: 47px;
+    background: #556EE6;
+    color: white;
+}
+.cardtariff ul{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+}
+.cardtariff ul li{
+   margin: 27px 0;
+}
+.cardtariff ul > li:before{
+    top: -5px; 
+}
+.tariffsFlex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    max-width: 2048px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    .tariffscontainer h2{
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 26px;
+    }
+    .tariffscontainer > p{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
