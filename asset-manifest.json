@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-multiaccount/static/css/main.f3d474bf.css",
+    "main.js": "/react-multiaccount/static/js/main.73da2fcd.js",
+    "static/media/background_tariffs.png": "/react-multiaccount/static/media/background_tariffs.6146f8b50e36362d9cf1.png",
+    "static/media/Frame_background_header.png": "/react-multiaccount/static/media/Frame_background_header.fefce9be5d972472d14c.png",
+    "static/media/video_background.png": "/react-multiaccount/static/media/video_background.a10a95334e327988c327.png",
+    "static/media/footer_background.png": "/react-multiaccount/static/media/footer_background.6255181e8edceccfe855.png",
+    "static/media/image-infosupport.png": "/react-multiaccount/static/media/image-infosupport.c3375d0e5b7483d42262.png",
+    "static/media/111 1.png": "/react-multiaccount/static/media/111 1.3c2f3b4b86bb1cf14640.png",
+    "static/media/background_proxyblock.png": "/react-multiaccount/static/media/background_proxyblock.afc9ae0fb79a11acc419.png",
+    "static/media/background-infosection.png": "/react-multiaccount/static/media/background-infosection.c235610c19355329ded3.png",
+    "static/media/testsection_background.png": "/react-multiaccount/static/media/testsection_background.84788186b5c53f80ae99.png",
+    "static/media/image-infosupport-mobile.png": "/react-multiaccount/static/media/image-infosupport-mobile.d6c98adb547f5abf8681.png",
+    "index.html": "/react-multiaccount/index.html",
+    "main.f3d474bf.css.map": "/react-multiaccount/static/css/main.f3d474bf.css.map",
+    "main.73da2fcd.js.map": "/react-multiaccount/static/js/main.73da2fcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3d474bf.css",
+    "static/js/main.73da2fcd.js"
+  ]
+}
