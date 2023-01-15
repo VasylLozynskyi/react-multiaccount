@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-multiaccount/static/css/main.f3d474bf.css",
-    "main.js": "/react-multiaccount/static/js/main.73da2fcd.js",
+    "main.css": "/react-multiaccount/static/css/main.9b83e5d4.css",
+    "main.js": "/react-multiaccount/static/js/main.d5f8a89a.js",
     "static/media/background_tariffs.png": "/react-multiaccount/static/media/background_tariffs.6146f8b50e36362d9cf1.png",
     "static/media/Frame_background_header.png": "/react-multiaccount/static/media/Frame_background_header.fefce9be5d972472d14c.png",
     "static/media/video_background.png": "/react-multiaccount/static/media/video_background.a10a95334e327988c327.png",
@@ -13,11 +13,11 @@
     "static/media/testsection_background.png": "/react-multiaccount/static/media/testsection_background.84788186b5c53f80ae99.png",
     "static/media/image-infosupport-mobile.png": "/react-multiaccount/static/media/image-infosupport-mobile.d6c98adb547f5abf8681.png",
     "index.html": "/react-multiaccount/index.html",
-    "main.f3d474bf.css.map": "/react-multiaccount/static/css/main.f3d474bf.css.map",
-    "main.73da2fcd.js.map": "/react-multiaccount/static/js/main.73da2fcd.js.map"
+    "main.9b83e5d4.css.map": "/react-multiaccount/static/css/main.9b83e5d4.css.map",
+    "main.d5f8a89a.js.map": "/react-multiaccount/static/js/main.d5f8a89a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3d474bf.css",
-    "static/js/main.73da2fcd.js"
+    "static/css/main.9b83e5d4.css",
+    "static/js/main.d5f8a89a.js"
   ]
 }
