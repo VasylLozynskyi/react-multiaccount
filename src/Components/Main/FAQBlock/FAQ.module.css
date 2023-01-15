@@ -158,3 +158,9 @@
     position: absolute;
     bottom: 40px;
 }
+@media (max-width: 530px){
+    .telegramcard > img,
+    .youtubecard > img{
+        width: 90px;
+    }
+}

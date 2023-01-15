@@ -24,18 +24,6 @@
     background-size: contain;
     margin: 0 auto;
 }
-/* .infosupport p{
-    text-align: start;
-    width: 345px;
-    font-size: 26px;
-    line-height: 33px;
-}
-.infosupport p:first-child{
-    margin: 80px 0 130px 0;
-}
-.infosupport p:last-child{
-    margin: 155px 0 0 0;
-} */
 @media (max-width: 1280px){
     .infosupport{
         height: 700px;
