@@ -8,17 +8,17 @@ import SupprotBlock from './Components/Main/SupportBlock/SupportBlock';
 import TariffsBlock from './Components/Main/TariffsBlock/TariffsBlock';
 import VideoBlock from './Components/Main/VideoBlock/VideoBlock';
 
-function App() {
+function App(props) {
   return (
     <div className='wrapper'>
-      <Header/>
-      <SupprotBlock/>
-      <VideoBlock/>
-      <InfoBlock/>
-      <ProxyBlock/>
-      <TariffsBlock/>
-      <FAQBlock/>
-      <Footer/>
+      <Header data = {props.data.header}/>
+      <SupprotBlock data = {props.data.main.support}/>
+      <VideoBlock data = {props.data.main.video}/>
+      <InfoBlock data = {props.data.main.infoblock}/>
+      <ProxyBlock data = {props.data.main.proxy}/>
+      <TariffsBlock data = {props.data.main.tariffs}/>
+      <FAQBlock data = {props.data.main.faq}/>
+      <Footer datanav = {props.data.header} datafooter = {props.data.footer}/>
     </div>
   );
 }

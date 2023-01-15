@@ -1,80 +1,79 @@
 import React from "react";
 import style from "./tariffs.module.css"
 
-const TariffsBlock = () => {
+const TariffsBlock = (props) => {
     return(
-
-        <div className={style.container}>
+        <div id="tariffs" className={style.container}>
             <div className={style.tariffscontainer}>
-                <h2>Tariffs</h2>
-                <p>Test for 24 hours for free when registering in the browser</p>
+                <h2>{props.data.title}</h2>
+                <p>{props.data.text}</p>
                 <div className={style.tariffsFlex}>
                     <div className={style.cardtariff}>
                         <div className={style.titletariffblock}>
-                            <h4>1 Month</h4>
-                            <p>for 32 days</p>
+                            <h4>{props.data.cardtariffs.first.settime}</h4>
+                            <p>{props.data.cardtariffs.first.timetext}</p>
                         </div>
-                        <div className={style.pricecardtariff}>888 $</div>
+                        <div className={style.pricecardtariff}>{props.data.cardtariffs.first.price}</div>
                         <div className={style.flexbuttoncard}>
                             <button className={style.buttoncardtariff}>Choose</button>
                         </div>
                         <ul>
-                            <li>access to the browser for 32 days</li>
-                            <li>instant backup</li>
-                            <li>storage of profiles in the cloud</li>
-                            <li>Browser fingerprint substitution</li>
-                            <li>sharing cookies</li>
+                            <li>{props.data.cardtariffs.first.list.li1}</li>
+                            <li>{props.data.cardtariffs.first.list.li2}</li>
+                            <li>{props.data.cardtariffs.first.list.li3}</li>
+                            <li>{props.data.cardtariffs.first.list.li4}</li>
+                            <li>{props.data.cardtariffs.first.list.li5}</li>
                         </ul>
                     </div>
                     <div className={style.cardtariff}>
                         <div className={style.titletariffblock}>
-                            <h4>3 Month</h4>
-                            <p>for 95 days</p>
+                            <h4>{props.data.cardtariffs.second.settime}</h4>
+                            <p>{props.data.cardtariffs.second.timetext}</p>
                         </div>
-                        <div className={style.pricecardtariff}>2200 $</div>
+                        <div className={style.pricecardtariff}>{props.data.cardtariffs.second.price}</div>
                         <div className={style.flexbuttoncard}>
                             <button className={style.buttoncardtariff}>Choose</button>
                         </div>
                         <ul>
-                            <li>access to the browser for 95 days</li>
-                            <li>instant backup</li>
-                            <li>storage of profiles in the cloud</li>
-                            <li>Browser fingerprint substitution</li>
-                            <li>sharing cookies</li>
+                            <li>{props.data.cardtariffs.second.list.li1}</li>
+                            <li>{props.data.cardtariffs.second.list.li2}</li>
+                            <li>{props.data.cardtariffs.second.list.li3}</li>
+                            <li>{props.data.cardtariffs.second.list.li4}</li>
+                            <li>{props.data.cardtariffs.second.list.li5}</li>
                         </ul>
                     </div>
                     <div className={style.cardtariff}>
                         <div className={style.titletariffblock}>
-                            <h4>6 Month</h4>
-                            <p>for 190 days</p>
+                            <h4>{props.data.cardtariffs.third.settime}</h4>
+                            <p>{props.data.cardtariffs.third.timetext}</p>
                         </div>
-                        <div className={style.pricecardtariff}>4000 $</div>
+                        <div className={style.pricecardtariff}>{props.data.cardtariffs.third.price}</div>
                         <div className={style.flexbuttoncard}>
                             <button className={style.buttoncardtariff}>Choose</button>
                         </div>
                         <ul>
-                            <li>access to the browser for 190 days</li>
-                            <li>instant backup</li>
-                            <li>storage of profiles in the cloud</li>
-                            <li>Browser fingerprint substitution</li>
-                            <li>sharing cookies</li>
+                            <li>{props.data.cardtariffs.third.list.li1}</li>
+                            <li>{props.data.cardtariffs.third.list.li2}</li>
+                            <li>{props.data.cardtariffs.third.list.li3}</li>
+                            <li>{props.data.cardtariffs.third.list.li4}</li>
+                            <li>{props.data.cardtariffs.third.list.li5}</li>
                         </ul>
                     </div>
                     <div className={style.cardtariff}>
                         <div className={style.titletariffblock}>
-                            <h4>Year</h4>
-                            <p>for 1 year</p>
+                            <h4>{props.data.cardtariffs.four.settime}</h4>
+                            <p>{props.data.cardtariffs.four.timetext}</p>
                         </div>
-                        <div className={style.pricecardtariff}>7500 $</div>
+                        <div className={style.pricecardtariff}>{props.data.cardtariffs.four.price}</div>
                         <div className={style.flexbuttoncard}>
                             <button className={style.buttoncardtariff}>Choose</button>
                         </div>
                         <ul>
-                            <li>access to the browser for 370 days</li>
-                            <li>instant backup</li>
-                            <li>storage of profiles in the cloud</li>
-                            <li>Browser fingerprint substitution</li>
-                            <li>sharing cookies</li>
+                            <li>{props.data.cardtariffs.four.list.li1}</li>
+                            <li>{props.data.cardtariffs.four.list.li2}</li>
+                            <li>{props.data.cardtariffs.four.list.li3}</li>
+                            <li>{props.data.cardtariffs.four.list.li4}</li>
+                            <li>{props.data.cardtariffs.four.list.li5}</li>
                         </ul>
                     </div>
                 </div>

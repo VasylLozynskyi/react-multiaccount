@@ -9,111 +9,105 @@ import trafic from "../../../assets/images/trafic.png"
 import telegram from "../../../assets/images/telegramicon.png"
 import youtube from "../../../assets/images/youtube_icon.png"
 
-const FAQBlock = () => {
+const FAQBlock = (props) => {
     return(
-        <div className={style.container}>
+        <div id="faq" className={style.container}>
             <div className={style.faqmultiaccount}>
-                <h2>What is the Multiaccount Browser for?</h2>
+                <h2>{props.data.browser.title}</h2>
                 <div className={style.faqmultiaccountflexcard}>
                     <div className={style.cardmult}>
                         <div className={style.imgblock}>
-                            <img src={smm} alt="smm" />
+                            <img src={smm} alt="smm"/>
                         </div>
                         <div className={style.titlecardmult}>
-                            Multi-account SMM
+                            {props.data.browser.for.card1.title}
                         </div>
-                        <p>You can manage hundreds of social media accounts at the same time. Multiaccount will help protect your account from being banned by securely hiding it from Google/facebook/Instagram anti-fraud systems.</p>
+                        <p>{props.data.browser.for.card1.text}</p>
                     </div>
                     <div className={style.cardmult}>
                         <div className={style.imgblock}>
-                            <img src={reclam} alt="smm" />
+                            <img src={reclam} alt="reclam"/>
                         </div>
                         <div className={style.titlecardmult}>
-                            Advertising platforms
+                            {props.data.browser.for.card2.title}
                         </div>
-                        <p>all major ad platforms use complex algorithms to protect against running multiple accounts from the same device, but now you don't have to worry about that anymore as you can run each account in a completely separate browser environment with Multiaccount.</p>
+                        <p>{props.data.browser.for.card2.text}</p>
                     </div>
                     <div className={style.cardmult}>
                         <div className={style.imgblock}>
                             <img src={airdrop} alt="smm" />
                         </div>
                         <div className={style.titlecardmult}>
-                            Airdrop и Coinlist
+                            {props.data.browser.for.card3.title}
                         </div>
-                        <p>Tokensale/Whitelist bypass blocking, create
-                        multiple accounts for token sale and whitelist avoiding ban to get more chances to earn.</p>
+                        <p>{props.data.browser.for.card3.text}</p>
                     </div>
                     <div className={style.cardmult}>
                         <div className={style.imgblock}>
                             <img src={trafic} alt="trafic" />
                         </div>
                         <div className={style.titlecardmult}>
-                            Traffic arbitration
+                            {props.data.browser.for.card4.title}
                         </div>
-                        <p></p>
+                        <p>{props.data.browser.for.card4.text}</p>
                     </div>
                     <div className={style.cardmult}>
                         <div className={style.imgblock}>
                             <img src={bonus} alt="smm" />
                         </div>
                         <div className={style.titlecardmult}>
-                            Bonus hunting
+                            {props.data.browser.for.card5.title}
                         </div>
-                        <p></p>
+                        <p>{props.data.browser.for.card5.text}</p>
                     </div>
                     <div className={style.cardmult}>
                         <div className={style.imgblock}>
                             <img src={anonim} alt="smm" />
                         </div>
                         <div className={style.titlecardmult}>
-                            Anonymity
+                            {props.data.browser.for.card6.title}
                         </div>
-                        <p></p>
+                        <p>{props.data.browser.for.card6.text}</p>
                     </div>
                 </div>
             </div>
             <div className={style.fingerprint}>
-                <h2>Browser fingerprint
-                What's this? and what fingerprints does Multiaccount replace</h2>
+                <h2>{props.data.fingerprint.title}</h2>
                 <div className={style.flexfingerprint}>
                     <div className={style.leftfingblock}>
                         <div>
-                            <button>WebGl</button>
+                            <button>{props.data.fingerprint.sourses.sourse1}</button>
                         </div>
                         <div>
-                            <button>Canvas</button>
+                            <button>{props.data.fingerprint.sourses.sourse2}</button>
                         </div>
                         <div>
-                            <button>Fonts</button>
+                            <button>{props.data.fingerprint.sourses.sourse3}</button>
                         </div>
                         <div>
-                            <button>WebRTC</button>
+                            <button>{props.data.fingerprint.sourses.sourse4}</button>
                         </div>
                         <div>
-                            <button>Geolocation</button>
+                            <button>{props.data.fingerprint.sourses.sourse5}</button>
                         </div>
                     </div>
                     <div className={style.rigthfingblock}>
-                    The Geolocation API provides websites with access to a high-level interface that allows them to query for physical location information such as latitude and longitude, thereby breaking the user's anonymity. This page will check if the Geolocation API is working in your browser, show any data that can be retrieved, and ensure that websites do not access the API without your explicit permission.
+                        {props.data.fingerprint.sourses.text1}
                     </div>
                 </div>
             </div>
             <div className={style.fingcontacts}>
                 <div className={style.flexfingcontacts}>
                     <div className={style.telegramcard}>
-                        <h2>Support</h2>
-                        <p>If you have any questions about
-                        browser work, then write
-                        we will gladly help you!</p>
-                        <a href="https://t.me/Poleznosti_pro">https://t.me/Poleznosti_pro</a>
+                        <h2>{props.data.contacts.cards.support.title}</h2>
+                        <p>{props.data.contacts.cards.support.text}</p>
+                        <a href={props.data.contacts.cards.support.link}>{props.data.contacts.cards.support.link}</a>
                         <img src={telegram} alt="telegram" />
                     </div>
                     <div className={style.youtubecard}>
-                        <h2>Youtube</h2>
-                        <p>Subscribe to the channel
-                        What not to miss
-                        important information!</p>
-                        <a href="www.youtube.com/c/Полезности">www.youtube.com/c/Полезности</a>
+                        <h2>{props.data.contacts.cards.youtube.title}</h2>
+                        <p>{props.data.contacts.cards.youtube.text}</p>
+                        <a href={props.data.contacts.cards.youtube.link}>{props.data.contacts.cards.youtube.link}</a>
                         <img src={youtube} alt="youtube" />
                     </div>
                 </div>

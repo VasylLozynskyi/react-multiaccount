@@ -1,15 +1,15 @@
 import React from "react";
 import style from "./videoblock.module.css";
 
-const VideoBlock = () => {
+const VideoBlock = (props) => {
     return(
     <div id="video" className={style.container}>
         <div className={style.videosection}>
             <div className={style.infovideo}>
-                <iframe width="600" height="400" src="https://www.youtube.com/embed/1WzkDq5sMY8" title="#" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="600" height="400" src={props.data.linkvideo} title="#" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <div>
-                    <p>Video instruction for work with Antidetect Browser</p>
-                    <h2>MULTIACCOUNT</h2>
+                    <p>{props.data.subtitle}</p>
+                    <h2>{props.data.title}</h2>
                 </div>
             </div>
         </div>

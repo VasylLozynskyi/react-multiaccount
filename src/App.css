@@ -3,6 +3,9 @@
     font-style: normal;
     font-weight: 500;
 }
+body{
+    margin: 0;
+}
 .wrapper{
     background: #F5F6FA;
 }

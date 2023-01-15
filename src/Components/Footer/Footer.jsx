@@ -2,20 +2,20 @@ import React from "react";
 import style from "./footer.module.css";
 import logo from "../../assets/images/log_footer.png";
 
-const Footer = () => {
+const Footer = (props) => {
     return(
         <div className={style.container}>
             <div className={style.footerblock}>
                 <div className={style.flexfooter}>
                     <div className={style.navfooter}>
-                        <div className={style.menu}>Menu</div>
+                        <div className={style.menu}>{props.datafooter.navtitle}</div>
                             <div className={style.nuvfooterbar}>
-                                <a href="#tariffs">Tariffs</a>
-                                <a href="#proxy">Proxy</a>
-                                <a href="#FAQ">FAQ</a>
-                                <a href="#support">Support</a>
+                                <a href="#tariffs">{props.datanav.nav.link1}</a>
+                                <a href="#proxy">{props.datanav.nav.link2}</a>
+                                <a href="#FAQ">{props.datanav.nav.link3}</a>
+                                <a href="#support">{props.datanav.nav.link4}</a>
                             </div>
-                            <button className={style.download}>Download Browser for Windows</button>
+                            <button className={style.download}>{props.datanav.titlesection.btnDownload}</button>
                     </div>
                     <div className={style.logfooter}>
                         <div className={style.logo}>
