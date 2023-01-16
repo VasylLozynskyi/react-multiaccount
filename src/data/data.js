@@ -72,8 +72,9 @@ const Data = {
         tariffs:{
             title: "Tariffs",
             text: "Test for 24 hours for free when registering in the browser",
-            cardtariffs:{
-                first:{
+            cardtariffs:[
+                {   
+                    key: "1",
                     settime: "1 Month",
                     timetext: "for 32 days",
                     price: "888 $",
@@ -85,7 +86,8 @@ const Data = {
                         li5: "sharing cookies"
                     }
                 },
-                second:{
+                {
+                    key: "2",
                     settime: "3 Month",
                     timetext: "for 95 days",
                     price: "2200 $",
@@ -97,7 +99,8 @@ const Data = {
                         li5: "sharing cookies"
                     }
                 },
-                third:{
+                {
+                    key: "3",
                     settime: "6 Month",
                     timetext: "for 190 days",
                     price: "4000 $",
@@ -109,7 +112,8 @@ const Data = {
                         li5: "sharing cookies"
                     }
                 },
-                four:{
+                {
+                    key: "4",
                     settime: "Year",
                     timetext: "for 1 year",
                     price: "7500 $",
@@ -121,7 +125,7 @@ const Data = {
                         li5: "sharing cookies"
                     }
                 },
-            }
+            ]
         },
         faq:{
           browser:{
@@ -155,18 +159,33 @@ const Data = {
           },
           fingerprint:{
             title: "Browser fingerprint What's this? and what fingerprints does Multiaccount replace",
-            sourses:{
-                sourse1: "WebGl",
-                text1: "The Geolocation API provides websites with access to a high-level interface that allows them to query for physical location information such as latitude and longitude, thereby breaking the user's anonymity. This page will check if the Geolocation API is working in your browser, show any data that can be retrieved, and ensure that websites do not access the API without your explicit permission.",
-                sourse2: "Canvas",
-                text2: "",
-                sourse3: "Fonts",
-                text3: "",
-                sourse4: "WebRTC",
-                text4: "",
-                sourse5: "Geolocation",
-                text5: ""
-            }
+            sourses:[
+                {
+                key: "1",
+                sourse: "WebGl",
+                text: "WebGL (Short for Web Graphics Library) is a JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without the use of plug-ins. WebGL is fully integrated with other web standards, allowing GPU-accelerated usage of physics and image processing and effects as part of the web page canvas. WebGL elements can be mixed with other HTML elements and composited with other parts of the page or page background.",
+                },
+                {
+                key: "2",
+                sourse: "Canvas",
+                text: "Canvas is an extremely durable plain-woven fabric used for making sails, tents, marquees, backpacks, shelters, as a support for oil painting and for other items for which sturdiness is required, as well as in such fashion objects as handbags, electronic device cases, and shoes. It is popularly used by artists as a painting surface, typically stretched across a wooden frame.",
+                },
+                {
+                key: "3",
+                sourse: "Fonts",
+                text: "In metal typesetting, a font is a particular size, weight and style of a typeface. Each font is a matched set of type, with a piece (a 'sort') for each glyph. A typeface consists various fonts that share an overall design.",
+                },
+                {
+                    key: "4",
+                sourse: "WebRTC",
+                text: "WebRTC (Web Real-Time Communication) is a free and open-source project providing web browsers and mobile applications with real-time communication (RTC) via application programming interfaces (APIs). It allows audio and video communication to work inside web pages by allowing direct peer-to-peer communication, eliminating the need to install plugins or download native apps. Supported by Apple, Google, Microsoft, Mozilla, and Opera, WebRTC specifications have been published by the World Wide Web Consortium (W3C) and the Internet Engineering Task Force (IETF).",
+                },
+                {
+                    key: "5",
+                sourse: "Geolocation",
+                text: "The Geolocation API provides websites with access to a high-level interface that allows them to query for physical location information such as latitude and longitude, thereby breaking the user's anonymity. This page will check if the Geolocation API is working in your browser, show any data that can be retrieved, and ensure that websites do not access the API without your explicit permission."
+                }
+            ]
           },
           contacts:{
             cards:{

@@ -8,8 +8,11 @@ import reclam from "../../../assets/images/reclam.png"
 import trafic from "../../../assets/images/trafic.png"
 import telegram from "../../../assets/images/telegramicon.png"
 import youtube from "../../../assets/images/youtube_icon.png"
+import { useState } from "react";
 
 const FAQBlock = (props) => {
+    let [soursetext, setSoursetext] = useState(props.data.fingerprint.sourses[0].text);
+    
     return(
         <div id="faq" className={style.container}>
             <div className={style.faqmultiaccount}>
@@ -75,24 +78,19 @@ const FAQBlock = (props) => {
                 <h2>{props.data.fingerprint.title}</h2>
                 <div className={style.flexfingerprint}>
                     <div className={style.leftfingblock}>
-                        <div>
-                            <button>{props.data.fingerprint.sourses.sourse1}</button>
-                        </div>
-                        <div>
-                            <button>{props.data.fingerprint.sourses.sourse2}</button>
-                        </div>
-                        <div>
-                            <button>{props.data.fingerprint.sourses.sourse3}</button>
-                        </div>
-                        <div>
-                            <button>{props.data.fingerprint.sourses.sourse4}</button>
-                        </div>
-                        <div>
-                            <button>{props.data.fingerprint.sourses.sourse5}</button>
-                        </div>
+                        {props.data.fingerprint.sourses.map(el => {
+                            let ChooseHandler = () => {
+                                setSoursetext(el.text);
+                            }
+                            return(
+                                <div>
+                                    <button onClick = {ChooseHandler}>{el.sourse}</button>
+                                </div>
+                            )
+                        })}
                     </div>
                     <div className={style.rigthfingblock}>
-                        {props.data.fingerprint.sourses.text1}
+                        {soursetext}
                     </div>
                 </div>
             </div>
