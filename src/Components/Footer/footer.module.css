@@ -73,23 +73,23 @@
         line-height: 25px;
     }
     .navfooter .download{
-        width: 198.96px;
-        height: 26.17px;
-        font-size: 13px;
+        width: 200px;
+        height: 26px;
+        font-size: 12px;
         line-height: 15px;
     }
     .logfooter .download{
-        margin-top: 170px;
+        margin-top: 160px;
         width: 100px;
         height: 26px;
-        font-size: 13px;
+        font-size: 12px;
         line-height: 15px;
     }
     .logfooter .logo{
         margin-top: 0;
     }
     .logfooter .logo a img{
-        width: 200px;
+        width: 100%;
     }
 }
 @media (max-width: 530px){
@@ -106,17 +106,15 @@
         width: 50px;
     }
     .logfooter{
-        position: relative;
-    }
-    .logfooter{
         position: absolute;
         text-align: start;
     }
     .logfooter .download{
-       margin-top: 170px;
+       margin-top: 155px;
     }
     .logfooter .logo{
-       margin: 5px 0 0 100px;
+        width: 70%;
+       margin: 5px 5px 0 75px;
     }
     .navfooter .download{
         margin-top: 60px;

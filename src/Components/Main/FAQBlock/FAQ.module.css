@@ -18,11 +18,12 @@
 .cardmult{
     box-sizing: border-box;
     width: 600px;
+    min-height: 120px;
     background: #FFFFFF;
     border: 1px solid #DADFF2;
     border-radius: 35px;
     position: relative;
-    padding: 30px 25px 50px 130px;
+    padding: 30px 25px 10px 130px;
 }
 .cardmult .imgblock{
     background: #556EE6;
@@ -83,7 +84,7 @@
 }
 @media (max-width: 1024px) {
     .leftfingblock > div button{
-       max-width: 130px;
+       max-width: 140px;
     } 
     .fingerprint h2,
     .faqmultiaccount h2{
@@ -120,6 +121,7 @@
     padding: 40px;
     position: relative;
     width: 510px;
+    min-height: 100%;
     margin-bottom: 10px;
 }
 .telegramcard h2,
@@ -159,8 +161,45 @@
     bottom: 40px;
 }
 @media (max-width: 530px){
+    .telegramcard,
+    .youtubecard{
+        padding-bottom: 0;
+    }
     .telegramcard > img,
     .youtubecard > img{
         width: 90px;
     }
+    .telegramcard a,
+    .youtubecard a{
+        font-size: 20px;
+        position: relative;
+    }
+}
+@media (max-width: 350px){
+    .cardmult{
+        position: static;
+        padding: 20px;
+    }
+    .cardmult .imgblock{
+        position: static;
+        width: 110px;
+        height: 111px;
+    }
+    .flexfingerprint{
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .telegramcard,
+    .youtubecard{
+        padding: 80px 10px 10px 20px;
+    }
+    .telegramcard p,
+    .youtubecard p{
+        margin-bottom: 60px;
+    }
+    .telegramcard > img,
+    .youtubecard > img{
+        top: 10px;
+        left: 10px;
+}
 }

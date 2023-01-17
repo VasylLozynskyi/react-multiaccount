@@ -197,7 +197,7 @@ const Data = {
                 youtube:{
                     title: "Youtube",
                     text: "Subscribe to the channel What not to miss important information!",
-                    link: "www.youtube.com/c/Полезности"
+                    link: "https://www.youtube.com/c/Полезности"
                 }
             }
           }

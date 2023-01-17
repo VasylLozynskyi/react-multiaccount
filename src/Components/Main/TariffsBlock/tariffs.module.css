@@ -26,7 +26,7 @@
 .cardtariff{
     box-sizing: border-box;
     width: 355px;
-    height: 592px;
+    min-height: 592px;
     background: #FFFFFF;
     border-radius: 35px;
     padding: 35px 20px 55px 20px;
@@ -102,4 +102,10 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .cardtariff{
+        padding: 10px;
+    }
+    .titletariffblock{
+        margin: 0 0 20px 50px;
+     }
 }

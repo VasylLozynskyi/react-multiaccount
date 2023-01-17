@@ -103,10 +103,12 @@
 }
 @media (max-width: 768px){
     .testinfo{
-        width: 564px;
+        max-width: 564px;
     }
     .sectoninfo{
-       width: 564px;
+       max-width: 564px;
+       padding-left: 10px;
+       padding-right: 10px;
     }
     .testinfo h2{
         margin: 15px 0;
@@ -125,8 +127,8 @@
         font-size: 9px;
         line-height: 14px;
     }
-    .backgroundtest{ 
-        height: 200px;
+    .backgroundtest{ max-width: 220px;
+        max-height: 200px;
     }
     .textsectiontest p{
         font-size: 10px;
@@ -136,13 +138,13 @@
 @media (max-width: 630px){
     .sectoninfo{
         max-width: 350px;
-        height: 450px;
+        min-height: 450px;
         background-size: 80%, contain;
         background-position-y: bottom;
         background-position-x: center;
     }
     .testinfo{
-        width: 350px;
+        max-width: 350px;
     }
     .testinfo h2{
         margin: 10px 0;

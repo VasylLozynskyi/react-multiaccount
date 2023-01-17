@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./header.module.css";
 import logo from "../../assets/images/image_LOGO.png"
+import ourdownload from "../../download/someData.pdf"
 
 const Header = (props) => {
     return (
@@ -16,7 +17,10 @@ const Header = (props) => {
                         <a href="#faq">{props.data.nav.link3}</a>
                         <a href="#support">{props.data.nav.link4}</a>
                     </div>
-                    <button className={style.download}>Download↓</button>
+                    <a href={ourdownload} target="_blank" rel="noopener noreferrer" download='Browser.pdf'>
+                        <button className={style.download}>Download↓</button>
+                    </a>
+                    
                 </div>
             </div>
             <div className={style.wrapper}>
@@ -25,7 +29,9 @@ const Header = (props) => {
                         <h2>Antidetect <span>Browser</span></h2>
                         <h1>MULTIACCOUNT</h1>
                         <p>{props.data.titlesection.subtitle}</p>
-                        <button className={style.dowlBrowder}>{props.data.titlesection.btnDownload}</button>
+                        <a href={ourdownload} target="_blank" rel="noopener noreferrer" download='Browser.pdf'>
+                            <button className={style.dowlBrowder}>{props.data.titlesection.btnDownload}</button>
+                        </a>
                         <p>{props.data.titlesection.subtitle2}</p>
                     </div>
                 </div>

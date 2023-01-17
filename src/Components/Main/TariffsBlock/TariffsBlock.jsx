@@ -12,7 +12,7 @@ const TariffsBlock = (props) => {
                 <div className={style.tariffsFlex}>
                     {props.data.cardtariffs.map(el => {
                         return(
-                            <Cardtariff datacard = {el}/>
+                            <Cardtariff key={el.key} datacard = {el}/>
                         )
                     })}
                 </div>

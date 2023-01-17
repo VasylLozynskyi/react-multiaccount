@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./footer.module.css";
 import logo from "../../assets/images/log_footer.png";
+import ourdownload from "../../download/someData.pdf"
 
 const Footer = (props) => {
     return(
@@ -21,7 +22,9 @@ const Footer = (props) => {
                         <div className={style.logo}>
                             <a href="/"><img src={logo} alt="Logo" /></a>
                         </div>
-                        <button className={style.download}>Download↓</button>
+                        <a href={ourdownload} target="_blank" rel="noopener noreferrer" download='Browser.pdf'>
+                            <button className={style.download}>Download↓</button>
+                        </a>
                     </div>
                 </div>
             </div>

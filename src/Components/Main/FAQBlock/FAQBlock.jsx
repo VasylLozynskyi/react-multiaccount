@@ -84,7 +84,7 @@ const FAQBlock = (props) => {
                             }
                             return(
                                 <div>
-                                    <button onClick = {ChooseHandler}>{el.sourse}</button>
+                                    <button key={el.key} onClick = {ChooseHandler}>{el.sourse}</button>
                                 </div>
                             )
                         })}
