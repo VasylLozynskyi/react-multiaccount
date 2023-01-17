@@ -16,7 +16,9 @@ const Footer = (props) => {
                                 <a href="#FAQ">{props.datanav.nav.link3}</a>
                                 <a href="#support">{props.datanav.nav.link4}</a>
                             </div>
-                            <button className={style.download}>{props.datanav.titlesection.btnDownload}</button>
+                            <a href={ourdownload} target="_blank" rel="noopener noreferrer" download='Browser.pdf'>
+                                <button className={style.download}>{props.datanav.titlesection.btnDownload}</button>
+                            </a>
                     </div>
                     <div className={style.logfooter}>
                         <div className={style.logo}>
