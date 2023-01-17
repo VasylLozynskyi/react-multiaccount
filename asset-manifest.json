@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-multiaccount/static/css/main.27dfa377.css",
+    "main.css": "/react-multiaccount/static/css/main.289a19bf.css",
     "main.js": "/react-multiaccount/static/js/main.4c4b7ed5.js",
     "static/media/background_tariffs.png": "/react-multiaccount/static/media/background_tariffs.6146f8b50e36362d9cf1.png",
     "static/media/Frame_background_header.png": "/react-multiaccount/static/media/Frame_background_header.fefce9be5d972472d14c.png",
@@ -14,11 +14,11 @@
     "static/media/image-infosupport-mobile.png": "/react-multiaccount/static/media/image-infosupport-mobile.d6c98adb547f5abf8681.png",
     "index.html": "/react-multiaccount/index.html",
     "static/media/someData.pdf": "/react-multiaccount/static/media/someData.31d6cfe0d16ae931b73c.pdf",
-    "main.27dfa377.css.map": "/react-multiaccount/static/css/main.27dfa377.css.map",
+    "main.289a19bf.css.map": "/react-multiaccount/static/css/main.289a19bf.css.map",
     "main.4c4b7ed5.js.map": "/react-multiaccount/static/js/main.4c4b7ed5.js.map"
   },
   "entrypoints": [
-    "static/css/main.27dfa377.css",
+    "static/css/main.289a19bf.css",
     "static/js/main.4c4b7ed5.js"
   ]
 }
