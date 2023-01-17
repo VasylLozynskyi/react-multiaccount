@@ -41,6 +41,9 @@
     width: 140px;
     margin-bottom: 25px;
 }
+.nuvfooterbar a:hover{
+    color: #b7b8bb;
+}
 .navfooter .download{
     margin-top: 40px;
     width: 441px;
@@ -71,7 +74,8 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 25px;
-    }
+        }
+
     .navfooter .download{
         width: 200px;
         height: 26px;
