@@ -36,6 +36,10 @@ button:hover{
 }
 .nuvbar a{
     margin: 0 20px;
+    color: #556ee6;
+}
+.nuvbar a:hover{
+    color: #334cca;
 }
 .flexnav{
     display: flex;
